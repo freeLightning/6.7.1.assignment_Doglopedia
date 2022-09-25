@@ -2,6 +2,11 @@ body {
    width: 600px;
    margin: auto;
 }
+
+p {
+    letter-spacing: 1.3;
+}
+
 .container-header{
     background-color: #f5f5dc;
     color: #a48762;
@@ -12,7 +17,18 @@ body {
 }
 
 .navigation {
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
 
+.navigation li{
+    margin: 10px;
+    display: inline-block;
+}
+
+.navigation a{
+    color: darkslategrey;
+    text-decoration: underline dotted;list-style: none;
 }
 
 .container-img {
