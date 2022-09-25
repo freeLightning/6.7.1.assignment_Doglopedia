@@ -10,25 +10,28 @@ p {
 .container-header{
     background-color: #f5f5dc;
     color: #a48762;
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20px;
+    text-align: center;
+    padding: 17px;
     border-radius: 4px;
 }
 
 .navigation {
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1.5px solid rgb(220, 220, 220);
     text-align: center;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .navigation li{
-    margin: 10px;
+    margin: 0 8px;
     display: inline-block;
 }
 
 .navigation a{
-    color: darkslategrey;
-    text-decoration: underline dotted;list-style: none;
+    color: rgb(30, 58, 59);
+    text-decoration: underline dotted;
+    list-style: none;
 }
 
 .container-img {
