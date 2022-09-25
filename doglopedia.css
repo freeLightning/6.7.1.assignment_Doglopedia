@@ -1,5 +1,14 @@
+body {
+   width: 600px;
+   margin: auto;
+}
 .container-header{
-
+    background-color: #f5f5dc;
+    color: #a48762;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    border-radius: 4px;
 }
 
 .navigation {
@@ -15,5 +24,5 @@
 }
 
 footer {
-    
+
 }
