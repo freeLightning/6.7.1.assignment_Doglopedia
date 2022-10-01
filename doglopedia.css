@@ -17,7 +17,7 @@ p {
 }
 
 .navigation {
-    border-bottom: 1.5px solid rgb(220, 220, 220);
+    border-bottom: 1.5px solid #dcdcdc;
     text-align: center;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif
@@ -35,13 +35,35 @@ p {
 }
 
 .container-img {
+    text-align: center;
 
 }
 
 .image {
+    border-radius: 50%;
+    background-image: url(images/Collie.jpg);
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: 3px;
+    border: 1px solid black;
+    border-bottom: 3px solid black;
 
+}
+
+.lightborder{
+    padding-bottom: 17px;
+    border-bottom: 1.5px solid #dcdcdc;
 }
 
 footer {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid black;
 
 }
+
+/* 
+- Bilden är en cirkel på 300x300 pixlar (observera att den har en "border") */
